@@ -1,5 +1,3 @@
-@import url('/fonts/Inter Web/inter.css');
-
 @font-face {
   font-family: "Redaction-50";
   src: url("/fonts/Redaction/Redaction_50-Italic.woff2") format("woff2");
@@ -10,7 +8,7 @@
 
 @font-face {
   font-family: "Relative-Book-Pro";
-  src: url("/fonts/relative-book-pro.woff2") format("woff2"), url("/fonts/relative-book-pro.woff2") format("woff2");
+  src: url("/fonts/Relative/relative-book-pro.woff2") format("woff2"), url("/fonts/relative-book-pro.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -18,7 +16,7 @@
 
 @font-face {
   font-family: "Relative-Black-Italic-Pro";
-  src: url("/fonts/relative-black-italic-pro.woff2") format("woff2");
+  src: url("/fonts/Relative/relative-black-italic-pro.woff2") format("woff2");
   font-weight: normal;
   font-style: italic;
   font-display: swap;

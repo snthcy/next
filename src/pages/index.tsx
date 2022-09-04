@@ -7,8 +7,8 @@ import { SocialList } from "../components/socials";
 const Home: NextPage = () => {
   return (
     <Layout>
-      <div className="">
-        <main className="sm:px-8 sm:px-8">
+      <main className="sm:px-8 md:h-full">
+        <div className="">
           <h1 className="headline inline-flex mt-20 text-7xl sm:text-8xl sm:text-center font-serif color-">
             howdy{" "}
             <img
@@ -16,7 +16,7 @@ const Home: NextPage = () => {
               src="/static/mac.png"
             ></img>
           </h1>
-          <p className="my-7 text-xl sm:text-lg leading-relaxed">
+          <p className="my-7 text-lg md:text-xl leading-relaxed">
             My name is <b className="font-sansb">Norman.</b> I enjoy creating
             interfaces, surfing the wide web, and listening to music. You can
             often find me in
@@ -36,11 +36,11 @@ const Home: NextPage = () => {
             </span>
             or below.
           </p>
-          <div className="sm:text-center text-xl">
+          <div className="text-lg text-justify">
             <SocialList />
           </div>
-        </main>
-      </div>
+        </div>
+      </main>
     </Layout>
   );
 };

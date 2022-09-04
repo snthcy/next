@@ -33,9 +33,6 @@ module.exports = {
         
       },
     },
-    'screens': {
-      'sm': '390'
-    }
   },
   plugins: [
     plugin(function ({ addUtilities }) {
