@@ -2,15 +2,23 @@
 
 @font-face {
   font-family: "Redaction-50";
-  src: url("/fonts/Redaction/Redaction_50-Italic.woff2") format("woff2"), url("/fonts/Redaction/Redaction_50-Italic.woff2") format("woff2");
+  src: url("/fonts/Redaction/Redaction_50-Italic.woff2") format("woff2");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "GrandSlang";
-  src: url("/fonts/GrandSlang/Italic.woff2") format("woff2"), url("/fonts/GrandSlang/Italic.woff") format("woff");
+  font-family: "Relative-Book-Pro";
+  src: url("/fonts/relative-book-pro.woff2") format("woff2"), url("/fonts/relative-book-pro.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Relative-Black-Italic-Pro";
+  src: url("/fonts/Relative-black-italic-pro.woff2") format("woff2");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -24,7 +32,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Inter', normal;
+  font-family: 'Relative-Book-Pro', normal;
 }
 
 h1 {
@@ -40,7 +48,7 @@ h1 {
     color-scheme: dark;
   }
   body {
-    color: #f0e3ff;
-    background: #0f0e10;
+    color: #f8f4fd;
+    background: #000000;
   }
 }

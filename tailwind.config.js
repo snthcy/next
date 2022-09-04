@@ -18,6 +18,7 @@ module.exports = {
         'last': `linear-gradient(to right, rgb(239, 68, 68), rgb(153, 27, 27))`,
         'steam': `linear-gradient(to right, rgb(7, 189, 255), rgb(23, 157, 255), rgb(41, 119, 255))`,
         'trakt': `linear-gradient(to right, rgb(239, 68, 68), rgb(153, 27, 27))`,
+        // 'rainbow': `linear-gradient(45deg, #0072ff, #00d2e8 17%, #04fd8f 34%, #70fd6c 51%, #dae11e 68%, #ff9346 85%, #ff62c6)`
       }),
       'animation': {
             'textglow': 'ease-in-out duration-300 infinite hover:brightness-200',
@@ -26,10 +27,15 @@ module.exports = {
         'xl': '0 10px 10px rgba(255, 255, 255, 0.75)',
       },
         fontFamily: {
-        sans: ["Inter", ...defaultConfig.theme.fontFamily.sans],
+        sans: ["Relative-Book-Pro", ...defaultConfig.theme.fontFamily.sans],
+        sansb: ["Relative-Black-Italic-Pro"],
         serif: ["Redaction-50", ...defaultConfig.theme.fontFamily.serif],
+        
       },
     },
+    'screens': {
+      'sm': '390'
+    }
   },
   plugins: [
     plugin(function ({ addUtilities }) {

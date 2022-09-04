@@ -83,14 +83,16 @@ export function SocialList() {
 const Socials = ({ link, index }: { link: Link; index: number }) => {
   return (
     <Link key={index} href={link.url} type={link.title}>
-      <div className="inline-flex items-baseline px-1.5">
-        <p
-          className={`cursor-pointer text-xl font-serif ease-in-out duration-150 infinite hover:font-bold hover:text-transparent bg-clip-text ${link.gradient}`}
-        >
-          {link.title}
-        </p>
-        <div className="pl-2 pr-4 items-baseline">{link.icon}</div>
-      </div>
+      <a>
+        <div className="inline-flex items-center pr-1.5">
+          <div className="pr-1 pl-2 items-baseline">{link.icon}</div>
+          <p
+            className={`text-xl items-center font-sans ease-in-out duration-150 infinite hover:font-bold hover:text-transparent bg-clip-text ${link.gradient}`}
+          >
+            {link.title}
+          </p>
+        </div>
+      </a>
     </Link>
   );
 };
