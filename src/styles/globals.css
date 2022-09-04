@@ -1,8 +1,8 @@
-@import url('https://rsms.me/inter/inter.css');
+@import url('/fonts/Inter Web/inter.css');
 
 @font-face {
   font-family: "Redaction-50";
-  src: url("/fonts/redaction/Redaction_50-Italic.woff2") format("woff2"), url("/fonts/redaction/Redaction_50-Italic.woff2") format("woff2");
+  src: url("/fonts/Redaction/Redaction_50-Italic.woff2") format("woff2"), url("/fonts/Redaction/Redaction_50-Italic.woff2") format("woff2");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
