@@ -27,11 +27,9 @@ const Home: NextPage = () => {
                 className="self-center w-6 h-6 rounded-full mx-1"
               />
               <Link href="https://discord.gg/5bxvUGQwrx">
-                <a>
                   <span className="font-sansb ease-in-out duration-300 underline bg-clip-text text-transparent bg-gradient-to-br to-indigo-500 via-purple-500 from-indigo-500 hover:brightness-200">
                     Couleur&apos;s Tweak Tips
                   </span>
-                </a>
               </Link>
             </span>
             or below.

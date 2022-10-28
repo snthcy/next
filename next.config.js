@@ -15,11 +15,6 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/tel',
-        destination: 'https://t.me/normcs',
-        permanent: true,
-      },
-      {
         source: '/git',
         destination: 'https://github.com/snthcy',
         permanent: true,

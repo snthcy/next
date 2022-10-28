@@ -39,12 +39,6 @@ const links: Link[] = [
     gradient: "bg-twitter",
   },
   {
-    title: "tel",
-    url: "/tel",
-    icon: <FaTelegram />,
-    gradient: "bg-tel",
-  },
-  {
     title: "git",
     url: "/git",
     icon: <FaGithubAlt />,
@@ -83,7 +77,6 @@ export function SocialList() {
 const Socials = ({ link, index }: { link: Link; index: number }) => {
   return (
     <Link key={index} href={link.url} type={link.title}>
-      <a>
         <div className="inline-flex items-center pr-1.5">
           <div className="pr-1 pl-2 items-baseline">{link.icon}</div>
           <p
@@ -92,7 +85,6 @@ const Socials = ({ link, index }: { link: Link; index: number }) => {
             {link.title}
           </p>
         </div>
-      </a>
     </Link>
   );
 };

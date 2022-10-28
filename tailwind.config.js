@@ -13,7 +13,6 @@ module.exports = {
       backgroundImage: (theme) => ({
         'insta': `linear-gradient(to right, rgb(217, 70, 239), rgb(220, 38, 38), rgb(251, 146, 60))`,
         'twitter': `conic-gradient(at left center, rgb(56, 189, 248), rgb(30, 64, 175))`,
-        'tel': `linear-gradient(to right, rgb(56, 189, 248), rgb(103, 232, 249))`,
         'git': `linear-gradient(to right, rgb(229, 231, 235), rgb(156, 163, 175), rgb(75, 85, 99))`,
         'last': `linear-gradient(to right, rgb(239, 68, 68), rgb(153, 27, 27))`,
         'steam': `linear-gradient(to right, rgb(7, 189, 255), rgb(23, 157, 255), rgb(41, 119, 255))`,
