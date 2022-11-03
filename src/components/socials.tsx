@@ -2,10 +2,10 @@ import Link from "next/link";
 import {
   FaInstagram,
   FaTwitter,
-  FaTelegram,
   FaGithubAlt,
   FaLastfm,
   FaSteam,
+  FaDiscord,
 } from "react-icons/fa";
 import { SiTrakt } from "react-icons/si";
 
@@ -18,6 +18,7 @@ interface Link {
 
 type Gradients =
   | "bg-insta"
+  | "bg-disc"
   | "bg-twitter"
   | "bg-tel"
   | "bg-git"
@@ -31,6 +32,12 @@ const links: Link[] = [
     url: "/insta",
     icon: <FaInstagram />,
     gradient: "bg-insta",
+  },
+  {
+    title: "disc",
+    url: "/disc",
+    icon: <FaDiscord />,
+    gradient: "bg-disc",
   },
   {
     title: "twitter",
@@ -78,9 +85,9 @@ const Socials = ({ link, index }: { link: Link; index: number }) => {
   return (
     <Link key={index} href={link.url} type={link.title}>
         <div className="inline-flex items-center pr-1.5">
-          <div className="pr-1 pl-2 items-baseline">{link.icon}</div>
+          <div className="pr-1 items-baseline">{link.icon}</div>
           <p
-            className={`text-xl items-center font-sans ease-in-out duration-150 infinite hover:font-bold hover:text-transparent bg-clip-text ${link.gradient}`}
+            className={`text-xl pr-3 items-center font-sans ease-in-out duration-150 infinite hover:font-bold hover:text-transparent bg-clip-text ${link.gradient}`}
           >
             {link.title}
           </p>

@@ -10,6 +10,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/disc',
+        destination: 'https://discord.com/users/722930349276921888',
+        permanent: true,
+      },
+      {
         source: '/twitter',
         destination: 'https://twitter.com/snthcy',
         permanent: true,
