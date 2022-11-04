@@ -26,7 +26,7 @@ export default function NowPlaying () {
               {data.title}
             </a>
           ) : (
-            <p className="text-gray-800">Nothing is playing!</p>
+            <p className="text-gray-700">Nothing is playing!</p>
           )}
           <span className="mx-2 text-gray-500 sm:block">{" – "}</span>
           <p className="text-gray-300 max-w-max">{data?.artist ?? "Spotify"}</p>
