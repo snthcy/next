@@ -28,9 +28,7 @@ module.exports = {
       },
         fontFamily: {
         sans: ["Relative-Book-Pro", ...defaultConfig.theme.fontFamily.sans],
-        sansb: ["Relative-Black-Italic-Pro"],
         serif: ["Redaction-50", ...defaultConfig.theme.fontFamily.serif],
-        
       },
     },
   },
