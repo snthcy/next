@@ -34,7 +34,7 @@ const links: Link[] = [
     gradient: "bg-insta",
   },
   {
-    title: "disc",
+    title: "discord",
     url: "/disc",
     icon: <FaDiscord />,
     gradient: "bg-disc",
