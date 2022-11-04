@@ -13,7 +13,9 @@ const Home: NextPage = () => {
     <Layout>
       <main className="sm:px-8 md:h-full">
         <div className="">
-          <h1 className={`${redact.className} headline inline-flex mt-20 text-7xl sm:text-8xl sm:text-center`}>
+          <h1
+            className={`${redact.className} headline inline-flex mt-20 text-7xl sm:text-8xl sm:text-center`}
+          >
             howdy{" "}
             <motion.div
               whileTap={{
@@ -41,11 +43,13 @@ const Home: NextPage = () => {
             </b>{" "}
             I enjoy creating interfaces, surfing the wide web, and listening to
             music. You can often find me in
-            <span className="inline-flex items-baseline px-2 font-bold">
-              <img
+            <span className={`${relative_black.className} inline-flex items-baseline px-2`}>
+              <Image
                 src="/static/ctt.png"
-                alt=""
-                className="self-center w-6 h-6 rounded-full mx-1"
+                alt="ctt"
+                className="self-center rounded-full mx-1"
+                width={20}
+                height={20}
               />
               <Link href="https://discord.gg/5bxvUGQwrx">
                 <span className="font-sansb ease-in-out duration-300 underline bg-clip-text text-transparent bg-gradient-to-br to-indigo-500 via-purple-500 from-indigo-500 hover:brightness-200">
