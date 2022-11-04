@@ -4,8 +4,8 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 import Layout from "../components/Layout";
-import { SocialList } from "../components/Socials";
-import NowPlaying from "../components/NowPlaying";
+import { SocialList } from "../components/socials";
+import NowPlaying from "../components/nowplaying";
 import { redact, relative_black } from "../lib/fonts";
 
 const Home: NextPage = () => {
@@ -43,7 +43,9 @@ const Home: NextPage = () => {
             </b>{" "}
             I enjoy creating interfaces, surfing the wide web, and listening to
             music. You can often find me in
-            <span className={`${relative_black.className} inline-flex items-baseline px-2`}>
+            <span
+              className={`${relative_black.className} inline-flex items-baseline px-2`}
+            >
               <Image
                 src="/static/ctt.png"
                 alt="ctt"
