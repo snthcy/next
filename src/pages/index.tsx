@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-import Layout from "../components/Layout";
+import Layout from "../components/PageLayout";
 import { SocialList } from "../components/Socials";
 import NowPlaying from "../components/NowPlaying";
 import { redact, relative_black } from "../lib/fonts";
