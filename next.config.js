@@ -5,41 +5,46 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/insta',
-        destination: 'https://instagram.com/normie2k',
+        source: "/insta",
+        destination: "https://instagram.com/normie2k",
         permanent: true,
       },
       {
-        source: '/disc',
-        destination: 'https://discord.com/users/722930349276921888',
+        source: "/disc",
+        destination: "https://discord.com/users/722930349276921888",
         permanent: true,
       },
       {
-        source: '/twitter',
-        destination: 'https://twitter.com/snthcy',
+        source: "/twitter",
+        destination: "https://twitter.com/snthcy",
         permanent: true,
       },
       {
-        source: '/git',
-        destination: 'https://github.com/snthcy',
+        source: "/git",
+        destination: "https://github.com/snthcy",
         permanent: true,
       },
       {
-        source: '/last',
-        destination: 'https://last.fm/user/normcs',
+        source: "/last",
+        destination: "https://last.fm/user/normcs",
         permanent: true,
       },
       {
-        source: '/steam',
-        destination: 'https://steamcommunity.com/id/snthcy/',
+        source: "/steam",
+        destination: "https://steamcommunity.com/id/snthcy/",
         permanent: true,
       },
       {
-        source: '/trakt',
-        destination: 'https://trakt.tv/users/normcs',
+        source: "/trakt",
+        destination: "https://trakt.tv/users/normcs",
         permanent: true,
       },
-    ]
+      {
+        source: "/balls",
+        destination: "https://www.youtube.com/watch?v=xvFZjo5PgG0",
+        permanent: true,
+      },
+    ];
   },
 }
 
