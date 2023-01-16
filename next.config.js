@@ -34,16 +34,6 @@ const nextConfig = {
         destination: "https://steamcommunity.com/id/snthcy/",
         permanent: true,
       },
-      {
-        source: "/trakt",
-        destination: "https://trakt.tv/users/normcs",
-        permanent: true,
-      },
-      {
-        source: "/balls",
-        destination: "https://www.youtube.com/watch?v=xvFZjo5PgG0",
-        permanent: true,
-      },
     ];
   },
 }

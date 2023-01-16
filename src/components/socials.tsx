@@ -7,7 +7,6 @@ import {
   FaSteam,
   FaDiscord,
 } from "react-icons/fa";
-import { SiTrakt } from "react-icons/si";
 
 interface Link {
   title: string;
@@ -23,8 +22,7 @@ type Gradients =
   | "bg-tel"
   | "bg-git"
   | "bg-last"
-  | "bg-steam"
-  | "bg-trakt";
+  | "bg-steam";
 
 const links: Link[] = [
   {
@@ -62,13 +60,7 @@ const links: Link[] = [
     url: "/steam",
     icon: <FaSteam />,
     gradient: "bg-steam",
-  },
-  {
-    title: "trakt",
-    url: "/trakt",
-    icon: <SiTrakt />,
-    gradient: "bg-trakt",
-  },
+  }
 ];
 
 export function SocialList() {
