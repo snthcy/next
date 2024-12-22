@@ -16,7 +16,7 @@ const Home: NextPage = () => {
           <h1
             className={`${redact.className} headline inline-flex mt-20 text-7xl sm:text-8xl sm:text-center`}
           >
-            howdy{" "}
+            howdy! {" "}
             <motion.div
               whileTap={{
                 scale: 0.7,
@@ -28,9 +28,9 @@ const Home: NextPage = () => {
               <Image
                 src="/static/mac.png"
                 alt="macintosh"
-                className="self-center mx-3"
-                width={70}
-                height={70}
+                className="self-center mx-5"
+                width={75}
+                height={75}
               />
             </motion.div>
           </h1>
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
             >
               Norman.
             </b>{" "}
-            I enjoy creating interfaces, surfing the wide web, and listening to
+            I enjoy learning new things, surfing the wide web, and listening to
             music. You can often find me in
             <span
               className={`${relative_black.className} inline-flex items-baseline px-2`}

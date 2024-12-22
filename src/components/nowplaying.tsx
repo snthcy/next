@@ -28,8 +28,16 @@ export default function NowPlaying () {
           ) : (
             <p className="text-zinc-200">Nothing is playing!</p>
           )}
-          <span className="mx-2 text-gray-500 sm:block">{" – "}</span>
-          <p className="text-gray-300 max-w-max">{data?.artist ?? "Spotify"}</p>
+          {data?.isPlaying ? (
+            <>
+            <span className="mx-2 text-gray-500 sm:block">{" – "}</span>
+            <p className="text-gray-300 max-w-max">
+              {data?.artist ?? "Spotify"}
+            </p>
+            </>
+          ) : (
+            <p className="text-zinc-200"></p>
+          )}
         </div>
       </div>
     </>

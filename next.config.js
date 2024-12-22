@@ -6,16 +6,16 @@ const nextConfig = {
     return [
       {
         source: "/insta",
-        destination: "https://instagram.com/normie2k",
+        destination: "https://instagram.com/44.1hz",
         permanent: true,
       },
       {
         source: "/disc",
-        destination: "https://discord.com/users/722930349276921888",
+        destination: "https://discord.com/users/640648743099695138",
         permanent: true,
       },
       {
-        source: "/twitter",
+        source: "/x",
         destination: "https://twitter.com/snthcy",
         permanent: true,
       },
